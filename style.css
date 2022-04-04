@@ -1,0 +1,80 @@
+body {
+    background-image: url("img/Bg3.jpg");
+    object-fit: cover;
+    word-wrap: break-word;
+}
+
+h1,
+h3 {
+    text-align: center;
+    padding-top: 32px;
+}
+
+.btn {
+    height: 64px;
+    width: 164px;
+    background-color: #6c757c;
+}
+
+.AddandTrash {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+    margin-top: -10px;
+}
+
+.card {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+    height: 300px;
+    width: 500px;
+    padding: 16px;
+    margin: 32px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#headerContainer {
+    margin-left: 256px;
+    margin-right: 256px;
+}
+
+#notesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#ContainerTrash {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Backlink {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 32px;
+}
+
+@media (max-width: 1000px) {
+    #headerContainer {
+        margin-left: 85px;
+        margin-right: 85px;
+    }
+}
+
+@media (max-width: 1300px) {
+    #headerContainer {
+        margin-left: 128px;
+        margin-right: 128px;
+    }
+}
